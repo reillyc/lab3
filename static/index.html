@@ -12,7 +12,9 @@
 	<script src="js/bootstrap.min.js"></script>
 	
 	<script src="js/introHCI.js"></script>
-
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<meta charset="utf-8">
+    <title>JS Bin</title>
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -38,6 +40,21 @@
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
+		<div>
+			<p id="myElement">Example text</p>
+		</div>
+
+		<div class='container'>
+    		<p>Css test</p>
+    		<button class='btn btn-primary' id='css_change'>Add "text-center" CSS Class</button>
+    		<hr>
+    		<p class='text-center'>Remove CSS class test</p>
+    		<button class='btn btn-primary' id='css_remove'>Remove "text-center" CSS Class</button>
+    		<hr>
+    		<p class='text-center'>Toggle CSS class test</p>
+    		<button class='btn btn-primary' id='css_toggle'>Toggle "text-center" CSS Class</button>
+  		</div>
+
 		<div class="project" id="project1">
 			<a href="" class="thumbnail">
 				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image" class="img">
